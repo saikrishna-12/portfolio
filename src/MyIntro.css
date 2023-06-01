@@ -1,8 +1,9 @@
 .block-1 {
-    top: 58px;
+    
     left: 0;
-    position: absolute;
+    position: relative;
     display: flex;
+    
     align-items: center;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.849);
@@ -11,7 +12,7 @@
     border-radius: 2px;
   }
   
-  .circle {
+  .circle1 {
     height: 180px;
     width: 180px;
     background-color: black;
@@ -27,9 +28,13 @@
     object-fit: cover;
   }
   
-  .card {
+  .card1 {
     margin: 16px;
-    width: 710px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
     height: 254px;
     background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
     border-radius: 10px;
@@ -37,12 +42,13 @@
    }
    
    .card2 {
-    width: 708px;
+    align-content: center;
+    flex-wrap: wrap;
     height: 254px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    margin: 1px;
     background-color: #1a1a1a;
     border-radius:10px;
     transition: all .2s;
@@ -53,6 +59,13 @@
     border-radius: 20px;
    }
    
-   .card:hover {
+   .card1:hover {
     box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
    }
+
+
+
+
+   /*cards*/
+
+   
