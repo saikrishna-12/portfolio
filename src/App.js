@@ -8,9 +8,10 @@ function App() {
     <div className="App">
       <Navbar/>
       <MyIntro/>
-            
+          
     </div>
   );
 }
+
 
 export default App;
