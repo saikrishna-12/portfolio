@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './MyIntro.css';
 import Mypic from './mypic.png';
 import Servicecards from './Servicecards';
+import Aboutme from './Aboutme';
 
 export class MyIntro extends Component {
   render() {
@@ -30,13 +31,14 @@ export class MyIntro extends Component {
             </div>
           </div>
         </div>
+        <Aboutme/>
         {/* Render the Servicecards component */}
         <div style={{  display: 'flex', flexWrap: 'wrap', justifyContent:'center',padding: '45px'}}>
         <Servicecards title="Services" items={services}/>
         <Servicecards title="Technical Skills" items={skill}/>
-        <Servicecards title="Work Exposure" items={work}/>
-        
+        <Servicecards title="Work Exposure" items={work}/>        
         </div>
+
       </div>
     );
   }
