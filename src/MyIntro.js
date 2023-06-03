@@ -6,8 +6,8 @@ import Aboutme from './Aboutme';
 
 export class MyIntro extends Component {
   render() {
-    const services = ['Website Development', 'Website Design', 'Website Development','QA','Auomation'];
-    const skill=['HTML', 'CSS', 'Java Script', 'Python', 'Reacrt.js', 'Version Control', 'SQL', 'Automation'];
+    const services = ['Website Development', 'Website Design', 'Website Development','QA','Automation'];
+    const skill=['HTML', 'CSS', 'Java Script', 'Python', 'Reacrt.js', 'Version Control', 'SQL', 'UiPath'];
     const work= ['As a front-end developer at TCS, I contributed to creating engaging and user-friendly web interfaces. I collaborated with cross-functional teams to implement responsive designs and optimize website performance, ensuring a seamless user experience. I utilized my expertise in HTML, CSS, and JavaScript to develop interactive and visually appealing front-end solutions.']
     return (
         

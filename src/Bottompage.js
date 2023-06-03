@@ -15,7 +15,7 @@ export class Bottompage extends Component {
                 <div className="col-lg-4">
                   <h5>Contact Information</h5>
                   <p>Email: saikrishnasai12@gmail.com</p>
-                  <p>Phone: 7675819520</p>
+                  <p>Phone: +91 7675819520</p>
                 </div>
                 <div className="col-lg-4">
                   <h5>Connect with Me</h5>
