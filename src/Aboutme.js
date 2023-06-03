@@ -18,8 +18,8 @@ export class Aboutme extends Component {
           I am also experienced in Figma UI/UX designing, and enjoy collaborating with designers to create visually stunning and user-friendly interfaces. With a strong eye for design, I am able to bring ideas to life and deliver polished designs that meet business goals and user needs.
           </p>
           <div class="row mt-3">
-            <div class="col-md-6">
-              <ul>
+            <div class="col-md-6" >
+              <ul style={{display:'flex', alignItems:'flex-start',flexDirection:'column'}}>
                 <li>Name: Sai Krshna Darishetti</li>
                 <li>Age: 24</li>
                 <li>Occupation: Web Developer</li>
