@@ -27,7 +27,7 @@ export class Navbar extends Component {
             fontFamily: "'Tsukimi Rounded', sans-serif",
         };
         const linkedInUrl = 'https://www.linkedin.com/in/sai-krishna-darishetti';
-        const githubUrl = 'https://github.com/your-github-username';
+        const githubUrl = 'https://github.com/saikrishna-12';
 
 
 

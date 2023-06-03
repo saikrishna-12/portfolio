@@ -10,8 +10,8 @@ export class Aboutme extends Component {
       <h1 class="text-center">About Me</h1>
       <div class="row mt-4" style={{ display: 'flex', alignItems:'center'}}>
         <div class="col-lg-4">
-          <img src={Mypic} class="imageAboutPage" alt="" style={{ width: "432px", height: "466px",  objectFit: "contain"  }}/>
-        </div>
+          <img src={Mypic} class="imageAboutPage" alt="" style={{ width: "100%", height: "466px",  objectFit: "contain"  }}/>
+        </div>       
         <div class="col-lg-8">
           <p>
           As a front-end developer with 2 years of experience, I am skilled in creating beautiful, responsive websites that deliver engaging user experiences. My technical expertise includes proficiency in HTML, CSS, JavaScript, and jQuery, as well as experience with popular front-end frameworks such as React.
