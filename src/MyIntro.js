@@ -33,8 +33,8 @@ export class MyIntro extends Component {
         </div>
         <Aboutme/>
         {/* Render the Servicecards component */}
-        <div style={{  display: 'flex', flexWrap: 'wrap', justifyContent:'center',padding: '45px'}}>
-        <Servicecards title="Services" items={services}/>
+        <div id='services' style={{  display: 'flex', flexWrap: 'wrap', justifyContent:'center',padding: '45px'}}>
+        <Servicecards  title="Services" items={services}/>
         <Servicecards title="Technical Skills" items={skill}/>
         <Servicecards title="Work Exposure" items={work}/>        
         </div>
