@@ -1,8 +1,10 @@
+/* eslint-disable no-undef */
 import React, { Component } from 'react';
 import './MyIntro.css';
 import Mypic from './mypic.png';
 import Servicecards from './Servicecards';
 import Aboutme from './Aboutme';
+
 
 export class MyIntro extends Component {
   constructor(props) {
@@ -15,6 +17,7 @@ export class MyIntro extends Component {
   componentDidMount() {
     this.handleResize();
     window.addEventListener('resize', this.handleResize);
+    
   }
 
   componentWillUnmount() {
@@ -25,6 +28,9 @@ export class MyIntro extends Component {
     this.setState({ isMobile: window.innerWidth < 425 });
   };
 
+
+  
+  
   render() {
     const services = ['Website Development', 'Website Design', 'Website Development', 'QA', 'Automation'];
     const skill = ['HTML', 'CSS', 'Java Script', 'Python', 'React.js', 'Version Control', 'SQL', 'UiPath'];
@@ -33,6 +39,9 @@ export class MyIntro extends Component {
     ];
 
     const { isMobile } = this.state;
+    
+    
+    
 
     return (
       <div>
@@ -50,12 +59,12 @@ export class MyIntro extends Component {
                 height: isMobile ? 'fit-content' : ''
               }}
             >
-              <p>
+              <p className="summary">
                 Welcome to my website! I am a skilled web developer specializing in creating interactive and responsive web
                 pages. As a web developer, I bring your ideas to life by designing and developing visually appealing and
                 user-friendly websites.
               </p>
-              <p>
+              <p className='summary'>
                 With my expertise in web development, I create dynamic and engaging online experiences that adapt seamlessly
                 across different devices.
               </p>
