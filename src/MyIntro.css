@@ -11,7 +11,8 @@
     width: 100%;
     border-radius: 2px;
   }
-  
+ 
+
   .circle1 {
     height: 180px;
     width: 180px;
@@ -77,4 +78,19 @@
 
    /*cards*/
 
-   
+/* MyIntro.css */
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+/* Apply the animation to the .summary class */
+.summary {
+  animation: fadeIn 1s ease-in-out;
+}
